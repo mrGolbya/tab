@@ -1,0 +1,31 @@
+body, ul{
+  padding: 0;
+  margin: 0;
+  height: 100vh;  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.tab{
+  max-width: 1030px;
+}
+.tab-btn-active {
+  pointer-events: none;
+  color: rgba(255, 0, 0, 0.514);
+}
+
+.tab-pane:not(.tab-pane-show) {
+  display: none;
+}
+.tab-nav {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+}
+.tab-nav li {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.4em;
+}

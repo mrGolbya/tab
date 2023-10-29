@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>tab</title>
+</head>
+<body>
+  <div class="tab" id="tab-1">
+    <ul class="tab-nav">
+      <li class="tab-btn tab-btn-active" data-target-id="0">Вкладка 1</li>
+      <li class="tab-btn" data-target-id="1">Вкладка 2</li>
+      <li class="tab-btn" data-target-id="2">Вкладка 3</li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane tab-pane-show" data-id="0">Содержимое 1...</div>
+      <div class="tab-pane" data-id="1">Содержимое 2...</div>
+      <div class="tab-pane" data-id="2">Содержимое 3...</div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
